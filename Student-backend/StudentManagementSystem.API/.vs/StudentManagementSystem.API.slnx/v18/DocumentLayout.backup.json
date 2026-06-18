@@ -1,0 +1,711 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\persistense\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C05A50D6-2713-B0E9-F472-6BC94300693D}|..\\StudentManagementSystem.Domain\\StudentManagementSystem.Domain.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C05A50D6-2713-B0E9-F472-6BC94300693D}|..\\StudentManagementSystem.Domain\\StudentManagementSystem.Domain.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C05A50D6-2713-B0E9-F472-6BC94300693D}|..\\StudentManagementSystem.Domain\\StudentManagementSystem.Domain.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.domain\\entities\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\features\\students\\services\\studentqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\features\\students\\services\\studentcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\features\\students\\queries\\getstudentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\features\\students\\queries\\getstudentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\features\\students\\commands\\updatestudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\features\\students\\commands\\deletestudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\features\\students\\commands\\createstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|solutionrelative:controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C05A50D6-2713-B0E9-F472-6BC94300693D}|..\\StudentManagementSystem.Domain\\StudentManagementSystem.Domain.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.domain\\studentmanagementsystem.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\studentmanagementsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.api\\studentmanagementsystem.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|solutionrelative:studentmanagementsystem.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072F3C3-2864-F5CB-6FA4-4BF41A59DD5C}|..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.application\\studentmanagementsystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\migrations\\20260615112010_addstudentfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\migrations\\20260615110045_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85DB111-801E-EB69-6348-136C2A3DE9E4}|StudentManagementSystem.API.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\migrations\\20260616185824_addstudentcourserelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\migrations\\20260616185351_addstudentcoursemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\migrations\\20260616183022_addcoursetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\migrations\\20260616173626_addusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E4174D-6AF7-85DD-C6E0-6472A97189BA}|..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj|c:\\users\\surya\\source\\repos\\studentmanagementsystem.infrastructure\\migrations\\20260617102136_studentcoursemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Persistense\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\Persistense\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Persistense\\AppDbContext.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\Persistense\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:26:04.264Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Interfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Interfaces\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Interfaces\\IStudentService.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Interfaces\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:14:06.92Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-18T05:59:15.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\Repositories\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T05:48:39.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cours.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Domain\\Entities\\Cours.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Domain\\Entities\\Cours.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Domain\\Entities\\Cours.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Domain\\Entities\\Cours.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:16:34.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T12:49:08.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T07:21:24.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Services\\CourseService.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Services\\CourseService.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Services\\CourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:41:45.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Services\\JwtService.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T06:54:33.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Services\\StudentService.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Services\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T13:35:44.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Interfaces\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Interfaces\\ICourseRepository.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Interfaces\\ICourseRepository.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Interfaces\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:21:11.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Domain\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Domain\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Domain\\Entities\\Student.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Domain\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T09:06:41.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:32:10.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Interfaces\\ICourseService.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Interfaces\\ICourseService.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Interfaces\\ICourseService.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Interfaces\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:40:24.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Interfaces\\IJwtService.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Interfaces\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Interfaces\\IJwtService.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Interfaces\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T05:38:47.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StudentQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Services\\StudentQueryService.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Features\\Students\\Services\\StudentQueryService.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Services\\StudentQueryService.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Features\\Students\\Services\\StudentQueryService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:12:02.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentCommandService.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Services\\StudentCommandService.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Features\\Students\\Services\\StudentCommandService.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Services\\StudentCommandService.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Features\\Students\\Services\\StudentCommandService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T10:36:35.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Interfaces\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Interfaces\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Interfaces\\IStudentRepository.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Interfaces\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T10:37:06.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetStudentByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Queries\\GetStudentByIdQuery.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Features\\Students\\Queries\\GetStudentByIdQuery.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Queries\\GetStudentByIdQuery.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Features\\Students\\Queries\\GetStudentByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:10:19.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Commands\\UpdateStudentCommand.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Features\\Students\\Commands\\UpdateStudentCommand.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Commands\\UpdateStudentCommand.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Features\\Students\\Commands\\UpdateStudentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:08:32.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetStudentQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Queries\\GetStudentQuery.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Features\\Students\\Queries\\GetStudentQuery.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Queries\\GetStudentQuery.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Features\\Students\\Queries\\GetStudentQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:09:39.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeleteStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Commands\\DeleteStudentCommand.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Features\\Students\\Commands\\DeleteStudentCommand.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Commands\\DeleteStudentCommand.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Features\\Students\\Commands\\DeleteStudentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:09:05.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Commands\\CreateStudentCommand.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\Features\\Students\\Commands\\CreateStudentCommand.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\Features\\Students\\Commands\\CreateStudentCommand.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\Features\\Students\\Commands\\CreateStudentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:05:11.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CourseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\DTOs\\CourseDto.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\DTOs\\CourseDto.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\DTOs\\CourseDto.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\DTOs\\CourseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:19:18.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\DTOs\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\DTOs\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\DTOs\\AuthResponseDto.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\DTOs\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:41:30.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\DTOs\\StudentDto.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\DTOs\\StudentDto.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\DTOs\\StudentDto.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\DTOs\\StudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T09:15:56.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:40:52.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-17T11:19:13.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T11:17:25.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:44:32.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T11:31:11.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20260617102136_StudentCourseMapping.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260617102136_StudentCourseMapping.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260617102136_StudentCourseMapping.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260617102136_StudentCourseMapping.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260617102136_StudentCourseMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T10:21:37.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StudentManagementSystem.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\StudentManagementSystem.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-15T08:41:07.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StudentManagementSystem.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Domain\\StudentManagementSystem.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Domain\\StudentManagementSystem.Domain.csproj",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Domain\\StudentManagementSystem.Domain.csproj",
+              "RelativeToolTip": "..\\StudentManagementSystem.Domain\\StudentManagementSystem.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-15T08:42:55.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20260616185824_AddStudentCourseRelation.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260616185824_AddStudentCourseRelation.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260616185824_AddStudentCourseRelation.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260616185824_AddStudentCourseRelation.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260616185824_AddStudentCourseRelation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:58:24.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20260616185351_AddStudentCourseMapping.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260616185351_AddStudentCourseMapping.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260616185351_AddStudentCourseMapping.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260616185351_AddStudentCourseMapping.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260616185351_AddStudentCourseMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:53:52.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20260616183022_AddCourseTable.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260616183022_AddCourseTable.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260616183022_AddCourseTable.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260616183022_AddCourseTable.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260616183022_AddCourseTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:30:22.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "StudentManagementSystem.API.http",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\StudentManagementSystem.API.http",
+              "RelativeDocumentMoniker": "StudentManagementSystem.API.http",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\StudentManagementSystem.API.http",
+              "RelativeToolTip": "StudentManagementSystem.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-06-16T17:55:14.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20260616173626_AddUserTable.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260616173626_AddUserTable.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260616173626_AddUserTable.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260616173626_AddUserTable.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260616173626_AddUserTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:36:26.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "StudentManagementSystem.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj",
+              "RelativeToolTip": "..\\StudentManagementSystem.Application\\StudentManagementSystem.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-15T08:40:37.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:46:42.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20260615110045_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260615110045_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260615110045_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260615110045_InitialCreate.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260615110045_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T11:00:45.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260615112010_AddStudentFields.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260615112010_AddStudentFields.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260615112010_AddStudentFields.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.Infrastructure\\Migrations\\20260615112010_AddStudentFields.cs",
+              "RelativeToolTip": "..\\StudentManagementSystem.Infrastructure\\Migrations\\20260615112010_AddStudentFields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T11:20:11.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:46:02.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Surya\\source\\repos\\StudentManagementSystem.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:45:57.211Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

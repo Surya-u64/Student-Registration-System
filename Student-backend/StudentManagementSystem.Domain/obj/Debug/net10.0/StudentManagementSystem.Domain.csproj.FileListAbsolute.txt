@@ -1,0 +1,11 @@
+C:\Users\Surya\source\repos\StudentManagementSystem.Domain\bin\Debug\net10.0\StudentManagementSystem.Domain.deps.json
+C:\Users\Surya\source\repos\StudentManagementSystem.Domain\bin\Debug\net10.0\StudentManagementSystem.Domain.dll
+C:\Users\Surya\source\repos\StudentManagementSystem.Domain\bin\Debug\net10.0\StudentManagementSystem.Domain.pdb
+C:\Users\Surya\source\repos\StudentManagementSystem.Domain\obj\Debug\net10.0\StudentManagementSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Surya\source\repos\StudentManagementSystem.Domain\obj\Debug\net10.0\StudentManagementSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\Surya\source\repos\StudentManagementSystem.Domain\obj\Debug\net10.0\StudentManagementSystem.Domain.AssemblyInfo.cs
+C:\Users\Surya\source\repos\StudentManagementSystem.Domain\obj\Debug\net10.0\StudentManagementSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Surya\source\repos\StudentManagementSystem.Domain\obj\Debug\net10.0\StudentManagementSystem.Domain.dll
+C:\Users\Surya\source\repos\StudentManagementSystem.Domain\obj\Debug\net10.0\refint\StudentManagementSystem.Domain.dll
+C:\Users\Surya\source\repos\StudentManagementSystem.Domain\obj\Debug\net10.0\StudentManagementSystem.Domain.pdb
+C:\Users\Surya\source\repos\StudentManagementSystem.Domain\obj\Debug\net10.0\ref\StudentManagementSystem.Domain.dll
