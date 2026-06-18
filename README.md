@@ -1,41 +1,41 @@
-# Student Registration System
+# Student Management System
 
 ## Overview
 
-Student Registration System is a full-stack web application developed using React.js, ASP.NET Core Web API, and PostgreSQL. The application enables administrators to manage student and course information through a user-friendly interface and secure backend services.
+The Student Management System is a full-stack web application developed using React.js, ASP.NET Core Web API, and PostgreSQL. The application enables administrators to manage students, courses, and enrollments through a secure and scalable architecture.
 
-The system provides complete CRUD operations for Students and Courses, supports student enrollment management, and uses JWT Authentication for secure access to protected resources.
+The system provides complete CRUD (Create, Read, Update, Delete) operations for Students and Courses while implementing JWT Authentication for secure user access. The project follows Clean Architecture principles and utilizes CQRS and Repository Pattern to build a maintainable and enterprise-level application.
 
 ---
 
 ## Features
 
-### Authentication
+### Authentication & Authorization
 
-* User Login
-* JWT Token Generation
+* JWT Authentication
+* Secure Login
 * Protected API Endpoints
-* Secure Access Control
+* Token-Based Authorization
 
 ### Student Management
 
-* Add New Student
-* View Student List
-* Update Student Details
+* Create Student
+* View Student Details
+* Update Student Information
 * Delete Student
 
 ### Course Management
 
-* Add New Course
-* View Course List
-* Update Course Details
+* Create Course
+* View Course Details
+* Update Course Information
 * Delete Course
 
 ### Enrollment Management
 
-* Assign Courses to Students
-* Manage Student-Course Relationships
+* Student-Course Enrollment
 * Many-to-Many Relationship Support
+* Course Assignment Management
 
 ---
 
@@ -44,7 +44,7 @@ The system provides complete CRUD operations for Students and Courses, supports 
 ### Frontend
 
 * React.js
-* React Router DOM
+* React Router
 * Axios
 * HTML5
 * CSS3
@@ -55,106 +55,100 @@ The system provides complete CRUD operations for Students and Courses, supports 
 * ASP.NET Core Web API
 * C#
 * Entity Framework Core
+* CQRS Pattern
+* Repository Pattern
 * Dependency Injection
-* Async/Await Programming
 
 ### Database
 
 * PostgreSQL
 
-### Authentication
+### Security
 
-* JWT (JSON Web Token)
+* JWT Authentication
+* Authorization Middleware
 
 ---
 
 ## Architecture
 
-The application follows a layered architecture that separates responsibilities across different layers.
+The project follows Clean Architecture to ensure separation of concerns and maintainability.
 
 ```text
-React Frontend
-       │
-       ▼
-ASP.NET Core Controllers
-       │
-       ▼
-Business Services
-       │
-       ▼
+React.js Frontend
+        │
+        ▼
+API Controllers
+        │
+        ▼
+Application Layer
+        │
+        ├── Commands (Write Operations)
+        ├── Queries (Read Operations)
+        ├── DTOs
+        └── Services
+        │
+        ▼
+Infrastructure Layer
+        │
+        ├── Repository Pattern
+        ├── AppDbContext
+        └── JwtService
+        │
+        ▼
 Entity Framework Core
-       │
-       ▼
+        │
+        ▼
 PostgreSQL Database
 ```
 
-### Layers
-
-#### Presentation Layer
-
-* React Components
-* Forms
-* Routing
-* API Calls
-
-#### API Layer
-
-* Controllers
-* Request Handling
-* Response Management
-* Authentication
-
-#### Business Layer
-
-* Business Logic
-* Validation
-* Service Operations
-
-#### Data Layer
-
-* Entity Framework Core
-* Database Access
-* Entity Mapping
-
-#### Database Layer
-
-* PostgreSQL Tables
-* Relationships
-* Constraints
-
 ---
 
-## Project Structure
+## Clean Architecture Layers
 
-```text
-Student/
-│
-├── Student-frontend/
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── assets/
-│   └── App.jsx
-│
-├── Student-backend/
-│   ├── Controllers/
-│   ├── Models/
-│   ├── Services/
-│   ├── Data/
-│   ├── DTOs/
-│   ├── Migrations/
-│   ├── Program.cs
-│   └── appsettings.json
-│
-└── README.md
-```
+### Domain Layer
+
+Contains the core business entities:
+
+* Student
+* Course
+* Enrollment / StudentCourse
+
+This layer contains only business models and does not depend on external frameworks.
+
+### Application Layer
+
+Responsible for:
+
+* DTOs
+* CQRS Commands
+* CQRS Queries
+* Service Interfaces
+* Business Rules
+
+### Infrastructure Layer
+
+Responsible for:
+
+* Repository Implementations
+* Database Access
+* Entity Framework Core Configuration
+* JWT Token Generation
+* PostgreSQL Connectivity
+
+### Presentation Layer
+
+Responsible for:
+
+* React User Interface
+* API Controllers
+* Request and Response Handling
 
 ---
 
 ## Database Design
 
-### Student
+### Student Table
 
 | Column | Type    |
 | ------ | ------- |
@@ -163,7 +157,7 @@ Student/
 | Email  | String  |
 | Phone  | String  |
 
-### Course
+### Course Table
 
 | Column      | Type    |
 | ----------- | ------- |
@@ -171,28 +165,113 @@ Student/
 | CourseName  | String  |
 | Description | String  |
 
-### StudentCourse
+### StudentCourse Table
 
 | Column    | Type        |
 | --------- | ----------- |
 | StudentId | Foreign Key |
 | CourseId  | Foreign Key |
 
-### Relationship Diagram
+---
+
+## Entity Relationship Diagram
 
 ```text
-Student
-   │
-   │
-   ▼
-StudentCourse
-   ▲
-   │
-   │
-Course
++-----------+
+|  Student  |
++-----------+
+| Id        |
+| Name      |
+| Email     |
+| Phone     |
++-----------+
+      |
+      | Many
+      |
+      ▼
++----------------+
+| StudentCourse  |
++----------------+
+| StudentId (FK) |
+| CourseId  (FK) |
++----------------+
+      ▲
+      |
+      | Many
+      |
++-----------+
+|  Course   |
++-----------+
+| Id        |
+| Name      |
+| Description|
++-----------+
 ```
 
-A student can enroll in multiple courses, and a course can contain multiple students.
+Relationship:
+
+* One Student can enroll in multiple Courses.
+* One Course can contain multiple Students.
+* Implemented using a Many-to-Many relationship.
+
+---
+
+## Design Patterns Used
+
+### Clean Architecture
+
+Separates business logic, infrastructure, and presentation concerns.
+
+### CQRS (Command Query Responsibility Segregation)
+
+Read and Write operations are separated.
+
+#### Commands
+
+Used for:
+
+* Create Student
+* Update Student
+* Delete Student
+* Create Course
+* Update Course
+* Delete Course
+
+#### Queries
+
+Used for:
+
+* Get Student List
+* Get Student By Id
+* Get Course List
+* Get Course By Id
+
+### Repository Pattern
+
+Provides abstraction between business logic and database access.
+
+Benefits:
+
+* Loose Coupling
+* Easier Testing
+* Maintainable Code
+
+### Dependency Injection
+
+Used to inject:
+
+* Services
+* Repositories
+* Database Context
+* JWT Services
+
+### Async/Await
+
+Used for:
+
+* Database Operations
+* API Processing
+* Improved Application Performance
 
 ---
 
@@ -226,13 +305,46 @@ DELETE /api/courses/{id}
 
 ---
 
-## Installation Guide
+## Request Flow
 
-### Clone Repository
+### Create Student
 
-```bash
-git clone https://github.com/Surya-u64/Student-Registration-System.git
+```text
+React Form
+    ↓
+Axios Request
+    ↓
+Student Controller
+    ↓
+CreateStudentCommand
+    ↓
+Application Service
+    ↓
+Repository
+    ↓
+Entity Framework Core
+    ↓
+PostgreSQL Database
+    ↓
+Success Response
+    ↓
+React UI Update
 ```
+
+---
+
+## Security Features
+
+* JWT Authentication
+* Secure Token Validation
+* Protected API Endpoints
+* Authorization Middleware
+* Input Validation
+* Secure Database Access
+
+---
+
+## Installation
 
 ### Backend Setup
 
@@ -246,12 +358,6 @@ dotnet ef database update
 dotnet run
 ```
 
-Backend runs on:
-
-```text
-https://localhost:5001
-```
-
 ### Frontend Setup
 
 ```bash
@@ -262,48 +368,32 @@ npm install
 npm start
 ```
 
-Frontend runs on:
-
-```text
-http://localhost:3000
-```
-
 ---
 
-## Security Features
+## Skills Demonstrated
 
+* React.js Development
+* ASP.NET Core Web API
+* PostgreSQL Database Design
 * JWT Authentication
-* Protected API Routes
-* Secure Token-Based Authorization
-* Input Validation
-* Entity Framework Core Query Protection
-* Environment-Based Configuration
-
----
-
-## Key Concepts Demonstrated
-
-* Full Stack Development
-* React.js Application Development
-* ASP.NET Core Web API Development
-* PostgreSQL Database Integration
-* JWT Authentication
-* Layered Architecture
-* Dependency Injection
 * Entity Framework Core
+* Clean Architecture
+* CQRS Pattern
+* Repository Pattern
+* Dependency Injection
 * Async Programming
-* RESTful API Design
+* REST API Development
+* Full Stack Development
 
 ---
 
 ## Future Enhancements
 
-* Role-Based Access Control (RBAC)
-* Refresh Token Authentication
-* Email Verification
-* Audit Logging
+* Role-Based Authorization
+* Refresh Tokens
+* Email Notifications
 * Dashboard Analytics
-* Docker Containerization
+* Docker Support
 * Unit Testing
 * Integration Testing
 * Cloud Deployment
@@ -312,16 +402,8 @@ http://localhost:3000
 
 ## Author
 
-**Surya Venkat**
+### Surya Venkat
 
 Full Stack Developer
 
-### Skills
-
-* React.js
-* ASP.NET Core Web API
-* PostgreSQL
-* Entity Framework Core
-* JWT Authentication
-* REST APIs
-* Git & GitHub
+**Technologies:** React.js • ASP.NET Core Web API • PostgreSQL • JWT Authentication • Clean Architecture • CQRS • Repository Pattern • Entity Framework Core
